@@ -7,11 +7,15 @@ class Database():
 
     # We begin the connection with the database
         self.connection = pymysql.connect(
-            host = userDBCredentials.host,
-            user =  userDBCredentials.user,
-            password = userDBCredentials.password,
-            db = userDBCredentials.db
-        )
+            host = userDBCredentials.host,   #This is the database host
+            user =  userDBCredentials.user,   #This is your username 
+            password = userDBCredentials.password,  #This is your paswword to connect to host
+            db = userDBCredentials.db  #This is the database you want to connect
+        ) 
+        
+    # UserDBCredentials is a file that I created to store in variables my credentials, so they are not
+    # visible in this file. You could use your credentials as Strings directly in the params of the connection  as well
+
         self.cursor = self.connection.cursor()
 
 
