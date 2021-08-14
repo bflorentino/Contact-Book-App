@@ -7,9 +7,9 @@ To try this project you need to have installed MySQL and execute the "Address Bo
 
 ## What libraries are used in the project?
 
-*Pymsql: it is a library to connect to MySQL with python.
-*Tkinter: as GUI
-*Re: it is used to validate the emails and phone numbers added.
+Pymsql: it is a library to connect to MySQL with python.
+Tkinter: as GUI
+Re: it is used to validate the emails and phone numbers added.
 
 The project is a CRUD which allows to add contacts, to select them, to update their info and delete them. The GUI shows a list with all the contacts you haved added ordered by their first name letter:
 
