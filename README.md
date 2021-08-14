@@ -13,7 +13,7 @@ Tkinter: as GUI
 
 Re: it is used to validate the emails and phone numbers added.
 
-The project is a CRUD which allows to add contacts, to select them, to update their info and delete them. The GUI shows a list with all the contacts you haved added ordered by their first name letter:
+The project is a CRUD which allows to add contacts, to select them, to update their info and delete them. The GUI shows a list with all the contacts you haved added ordered by their name's first letter:
 
 ![image](https://user-images.githubusercontent.com/77745940/129458815-83d87172-e6cf-4a3a-99a2-21a94f3ab2ae.png)
 
